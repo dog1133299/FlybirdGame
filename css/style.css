@@ -1,0 +1,99 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+
+}
+body{
+	background-image: url(../src/img/body.jpg);
+	background-color: lightblue;
+	background-size: cover;
+	
+}
+#background{
+	width: 343px;
+	height: 480px;
+    background-image:url(../src/img/bg.jpg);
+    position: relative;
+    top: 100px;
+    overflow: hidden;
+    border: 10px solid grey;
+
+}
+#head{
+    width: 236px;height: 77px;
+    background-image: url(../src/img/head.jpg);
+    position: absolute; left: 53px; top: 100px;
+}
+#headBird{
+    float:right;
+    margin-top: 25px;
+}
+#startButton{
+    width: 90px;height: 32px;
+    padding: 0;margin: 0;
+    background-image: url(../src/img/start.jpg);
+    position: absolute;left: 129px;top: 250px;
+    background-size: cover;
+    z-index: 1;
+}
+#grass1{
+    height: 14px;width: 343px;
+    background-image: url(../src/img/banner.jpg);
+    position: absolute;
+    top: 423px;
+}
+#grass2{
+    height: 14px;width: 343px;
+    background-image: url(../src/img/banner.jpg);
+    position: absolute;
+    top: 423px;
+    left: 343px;
+}
+#score{
+	font-size: 30px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	width: 343px;
+	height: 20px;
+	position: absolute;
+	top: 440px;
+	display: none;
+	color: rgb(255, 204, 0);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	 
+
+}
+
+#gameOver{
+	width: 221px;height: 40px;
+    background-image: url(../src/img/game_over.jpg);
+    position: absolute; left: 53px; top: 100px;
+    display: none;
+
+}
+
+#bestScore{
+	font-size: 50px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	width: 343px;
+	height: 20px;
+	position: absolute;
+	top: 150px;
+	display: none;
+	color: rgb(255, 204, 0);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	 
+
+}
+
+
+
+#okButton{
+ 	width: 85px;height: 29px;
+    padding: 0;margin: 0;
+    background-image: url(../src/img/ok.jpg);
+    position: absolute;left: 129px;top: 250px;
+}
